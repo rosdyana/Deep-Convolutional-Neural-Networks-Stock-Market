@@ -3,18 +3,22 @@ Deep Convolutional Neural Networks to predict stock market data.
 
 ## Usage
 - Grabbing historical data
-'''bash
+
+```bash
 python get_data.py --ticker SPY
-'''
+```
+
 or using list in file
-'''bash
+
+```bash
 python get_data.py --tickerfile etflist
-'''
+```
 
 - Do prediction
-'''bash
+
+```bash
 python stock_model.py --ticker ETF
-'''
+```
 
 ## Result
 | Dataset | Acc on testing set |
